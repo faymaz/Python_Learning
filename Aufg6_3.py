@@ -1,3 +1,7 @@
+"""
+Hierbei wird der entsprechende Begriff stets als Zeichenkette gespeichert. Wenn man in diesem Fall eine Zahl als Schlüssel eingibt, führt das jedoch zu einem Fehler.
+"""
+
 markeFahrzeug1 = "VW"
 modellFahrzeug1 = "Golf"
 baujahrFahrzeug1 = 2011
@@ -33,5 +37,3 @@ fahrzeug4 = {"marke": "BMW", "modell": "Grantourer", "baujahr": 2016, "preis": 8
 
 fahrzeug1 = dict ([("marke", "VW"), ("modell", "Golf"), ("baujahr", 2012), ("preis", 5000)])
 fahrzeug1 = dict (marke="VW", modell="Golf", baujahr=2012, preis=5000)
-
-Hierbei wird der entsprechende Begriff stets als Zeichenkette gespeichert. Wenn man in diesem Fall eine Zahl als Schlüssel eingibt, führt das jedoch zu einem Fehler.

@@ -1,7 +1,9 @@
-#def formel (x):
-# wert = 2 * x * x + 4 * x + 9
-#formel (4)
-#print (wert)
+"""
+def formel (x):
+ wert = 2 * x * x + 4 * x + 9
+formel (4)
+print (wert)
+"""
 def formel (x):
  wert = 2 * x * x + 4 * x + 9
  return wert

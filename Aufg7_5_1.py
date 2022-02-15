@@ -1,18 +1,17 @@
-#Gebrauchtwagenhaendler
-#fahrzeug1 = ["VW",      "Golf", 2012, 8000]
-#fahrzeug2 = ["BMW",     "A5",   2011, 5500]
-#fahrzeug3 = ["Seat",    "Leon", 2016, 1500]
-#
-#a = eval(input("Geben Sie bitte den Waren preise ein: "))
-#if a >= 6000:
-#    print("Preise für dies Waren", fahrzeug1[0:3])
-#elif a<=5000:
-#    print("Preise für dies Waren", fahrzeug2[0:3])
-#elif a<=5000:
-#    print("Preise für dies Waren", fahrzeug3[0:3])
-#
-#
-#
+"""
+Gebrauchtwagenhaendler
+fahrzeug1 = ["VW",      "Golf", 2012, 8000]
+fahrzeug2 = ["BMW",     "A5",   2011, 5500]
+fahrzeug3 = ["Seat",    "Leon", 2016, 1500]
+
+a = eval(input("Geben Sie bitte den Waren preise ein: "))
+if a >= 6000:
+    print("Preise für dies Waren", fahrzeug1[0:3])
+elif a<=5000:
+    print("Preise für dies Waren", fahrzeug2[0:3])
+elif a<=5000:
+    print("Preise für dies Waren", fahrzeug3[0:3])
+"""
 
 fahrzeug1 = ["VW", "Golf", 2011, 5000]
 fahrzeug2 = ["Renault", "Clio", 2013, 6000]
