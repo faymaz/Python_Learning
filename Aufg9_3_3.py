@@ -1,0 +1,10 @@
+def begruessung (name, zahl):
+#print ("Herzlich Willkommen,", name.lower())
+ print ("Herzlich Willkommen,", name)
+ print ("Die eingegebne Zahl lautet", zahl)
+eingabe1 = input("Geben Sie bitte Ihren Namen ein: ").upper()
+#eingabe1 = eingabe1.upper()
+#eingabe1.upper()
+eingabe2 = eval(input("Geben Sie eine Zahl ein: "))
+begruessung (eingabe1, eingabe2)
+print(type(eingabe1),type(eingabe2))
